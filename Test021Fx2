@@ -1,5 +1,4 @@
-task.wait(3) 
-
+wait(5)
 -- ✅ โหลด config จาก GitHub ก่อนอื่น
 pcall(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SDsfwqq/Auto-Mob/main/config.lua"))()
